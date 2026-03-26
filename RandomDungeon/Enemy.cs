@@ -61,7 +61,7 @@ namespace RandomDungeon
         // Devolve uma String Representando o Inimigo: "Nome (Vida, Ataque)"
         public override string ToString()
         {
-            // CÓDIGO AQUI
+            return $"{GetName()} ({GetHealth()}, {GetAttack()})";
         }
     }
 }
